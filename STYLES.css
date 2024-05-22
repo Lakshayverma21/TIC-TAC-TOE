@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+Body
+{
+    background-color: #548687;
+    text-align: center;
+}
+
+h1{
+    font-size: xxx-large;
+    font-style: oblique;
+    color: black;
+    margin-top: 2rem;
+}
+
+.container
+{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1.5vmin; */
+}
+
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-button
+{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191919;
+    color: aliceblue;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+#new-button
+{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191919;
+    color: aliceblue;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+#message
+{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container
+{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide
+{
+    display: none;
+}
+
+/* display: flex; - This CSS property is used to create a flex container. It establishes a flex formatting context for its children. This means the children of this container will be laid out as flexible boxes, either horizontally or vertically, depending on the value of the flex-direction property (which is not specified in your provided code, so it defaults to row).
+flex-wrap: wrap; - This CSS property determines whether the flex container is single-line or multi-line, and the direction of the cross-axis. In this case, wrap specifies that the flex container can wrap its contents onto multiple lines if there's not enough space available in the main axis. */
